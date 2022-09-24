@@ -1,0 +1,6 @@
+{
+    "nn_config": {
+        "output_format": "recognition",
+        "input_size": "224x224"
+    }
+}

@@ -1,0 +1,13 @@
+version: 2.0.4
+image: luxonis/basic-app
+name: Mask detection
+description: Application for mask detection
+language: python
+configuration:
+  detect_threshold:
+    label: 'Detect threshold'
+    type: 'num-range'
+    step: 0.05
+    min: 0
+    max: 1
+    default: 0.5
